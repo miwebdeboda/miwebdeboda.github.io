@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facu & Caro</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/0d53a6ada4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <audio id="myAudio" loop>
+            <source src="/assets/audio/X2Download.app - You And Me - Lifehouse (Boyce Avenue acoustic cover).mp3"
+                type="audio/mpeg">
+        </audio>
+        <button class="btn-musica pausa hide" onclick="toggleMute()">
+            <i>
+                <div class="icono-silencio"></div>
+            </i>
+        </button>
+
+        <section class="intro">
+            <div class="circulo-externo">
+                <div class="circulo">
+                    <img src="/assets/img/Logo.png" alt="Logo">
+                </div>
+            </div>
+        </section>
+        <section class="invitacion">
+            <div class="circulo-1"></div>
+            <div class="circulo-2"></div>
+            <div class="cuadro-text">
+                <h2>Guarda este día</h2>
+                <h3>"Somos el principio de una gran historia que no pretende terminar. Estamos muy felices por esta
+                    nueva
+                    etapa en nuestras
+                    vidas y queremos que ustedes sean testigos de este comienzo"</h3>
+            </div>
+        </section>
+        <section class="lugar-cuenta-regresiva">
+            <div class="ceremonia-fiesta">
+                <h2>Ceremonia & Fiesta</h2>
+                <h3>Salon Pampa</h3>
+                <p>Jesus María, Cordoba</p>
+                <div class="hora-boton">
+                    <span class="btn-hora">18:30hs.</span>
+                    <span class="btn-ubicacion">
+                        <a href="https://www.google.com/maps/place/Salon+Pampa/@-30.9941763,-64.1066901,17z/data=!3m1!4b1!4m6!3m5!1s0x9432630bf417617b:0x151f6c581eda99c8!8m2!3d-30.9941763!4d-64.1066901!16s%2Fg%2F11dfkpnhpf?entry=ttu"
+                            target="_blank" rel="noopener noreferrer">Llevame</a>
+                    </span>
+                </div>
+            </div>
+            <fieldset class="contador">
+                <legend>Faltan</legend>
+                <h2 id="countdown"></h2>
+            </fieldset>
+        </section>
+        <section class="foto-verso">
+            <p>"Es mejor ser dos que uno, porque ambos pueden ayudarse mutuamente a lograr el éxito" <br> Eclesiastes
+                4:9</p>
+        </section>
+        <section class="confirmacion">
+            <h2>Valor de la Tarjeta</h2>
+            <p>$9500 (desde los 11 años) <br> $4750 (de 3 a 10 años) <br> No pagan (de 0 a 2 años)</p>
+            <h3>¡Podes hacerlo en coutas!</h3>
+            <p>En 3: <br>
+                - 1era: Septiembre ($3200) <br>
+                - 2da: Octubre ($3200) <br>
+                - 3era: Noviembre ($3200)
+            </p>
+            <h2>IMPORTANTE</h2>
+            <P>Confirmar asistencia y pago hasta el 10 de Noviembre</P>
+            <fieldset>
+                <legend>Comunicarse</legend>
+                <span class="num">
+                    <a href="https://api.whatsapp.com/send?phone=543516274981&text=Hola!!%20Quisiera%20confirmar%20mi%20asistencia%20a%20la%20Boda%20de%20Facu%20%26%20Caro"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp">3516274981</i>
+                    </a>
+                </span>
+                <span class="num">
+                    <a href="https://api.whatsapp.com/send?phone=543512892446&text=Hola!!%2C%20Quisiera%20confirmar%20mi%20asistencia%20a%20la%20Boda%20de%20Facu%20%26%20Caro"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp">3512892446</i>
+                    </a>
+                </span>
+            </fieldset>
+        </section>
+    </main>
+    <script src="/assets/js/cuenta-regresiva.js"></script>
+    <script src="/assets/js/silenciar.js"></script>
+    <script src="/assets/js/reproducir-musica.js"></script>
+</body>
+
+</html>
