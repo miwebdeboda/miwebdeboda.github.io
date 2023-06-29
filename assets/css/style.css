@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Tangerine&family=Poiret+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.intro {
+    background-image: url(/assets/img/Intro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly;
+}
+
+.circulo-externo {
+    border: #ffffff solid 1px;
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10%;
+}
+
+.circulo {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+.invitacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo-1 {
+    background-image: url(/assets/img/2.jpg);
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.circulo-2 {
+    background-image: url(/assets/img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.cuadro-text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfcfc;
+    border-radius: 10%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1);
+}
+
+.cuadro-text h2 {
+    font-family: 'Parisienne', cursive;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+.cuadro-text h3 {
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.lugar-cuenta-regresiva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lugar-cuenta-regresiva h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.lugar-cuenta-regresiva h3,
+.lugar-cuenta-regresiva p {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.ceremonia-fiesta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hora-boton {
+    width: 80%;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    width: 8rem;
+    height: 3rem;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.btn-hora {
+    border: #ca92f0 solid 2px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+}
+
+.btn-ubicacion {
+    background-color: #ca92f0;
+}
+
+.btn-ubicacion a {
+    color: #000000;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.btn-ubicacion:hover {
+    border: #ca92f0 solid 2px;
+    background-color: #fcfcfc;
+}
+
+.contador {
+    width: 80%;
+    text-align: center;
+    border: #ca92f0 solid 2px;
+}
+
+legend {
+    font-family: 'Parisienne', cursive;
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+
+.contador h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.foto-verso {
+    background-image: url(/assets/img/4.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.foto-verso p {
+    color: #fcfcfc;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+}
+
+.confirmacion {
+    background-image: url(/assets/img/fondo.avif);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmacion h2 {
+    font-family: 'Poiret One', cursive;
+    margin: 1rem;
+}
+
+.confirmacion h2:nth-child(1) {
+    font-size: 2rem;
+}
+
+.confirmacion h2:nth-child(5) {
+    color: red;
+    font-size: 3rem;
+}
+
+.confirmacion p {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    margin: .5rem 1rem;
+}
+
+fieldset {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset span {
+    width: 12rem;
+}
+
+fieldset legend {
+    text-align: center;
+}
+
+.num {
+    border: #ca92f0 solid 2px;
+}
+
+.num a {
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.btn-musica {
+    z-index: 10000;
+    background: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    height: 48px;
+    width: 240px;
+    border-radius: 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .1);
+    border: 1px solid #f2f2f2;
+    outline: none;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    display: block;
+}
+
+.btn-musica div {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+}
+
+button.pausa div {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+}
+
+.btn-musica i {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+}
+
+.btn-musica i div {
+    opacity: .65;
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    width: 26px;
+    height: 26px;
+}
+
+.btn-musica:before {
+    font-size: 14px;
+    width: 200px;
+    left: 26px;
+    text-align: left;
+    top: 13px;
+    position: absolute;
+    content: var(--btn-texto-pausar);
+}
+
+.btn-musica.pausa:before {
+    content: var(--btn-texto-reproducir);
+}
+
+.btn-musica.hide {
+    width: 48px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .12);
+}
