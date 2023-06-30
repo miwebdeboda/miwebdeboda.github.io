@@ -142,13 +142,13 @@ span {
 }
 
 .btn-hora {
-    border: #ca92f0 solid 2px;
+    border: #c45824 solid 2px;
     font-family: 'Poiret One', cursive;
     font-weight: 900;
 }
 
 .btn-ubicacion {
-    background-color: #ca92f0;
+    background-color: #c45824;
 }
 
 .btn-ubicacion a {
@@ -159,14 +159,14 @@ span {
 }
 
 .btn-ubicacion:hover {
-    border: #ca92f0 solid 2px;
+    border: #c45824 solid 2px;
     background-color: #fcfcfc;
 }
 
 .contador {
     width: 80%;
     text-align: center;
-    border: #ca92f0 solid 2px;
+    border: #c45824 solid 2px;
 }
 
 legend {
@@ -200,24 +200,22 @@ legend {
 }
 
 .confirmacion {
-    background-image: url(/assets/img/fondo.avif);
+    background-image: url(/assets/img/textura-madera.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .confirmacion h2 {
     font-family: 'Poiret One', cursive;
     margin: 1rem;
-}
-
-.confirmacion h2:nth-child(1) {
     font-size: 2rem;
+    color: #ffffff;
 }
 
-.confirmacion h2:nth-child(5) {
-    color: red;
-    font-size: 3rem;
+.confirmacion h3 {
+    color: #ffffff;
 }
 
 .confirmacion p {
@@ -226,6 +224,7 @@ legend {
     font-family: 'Poiret One', cursive;
     font-weight: 900;
     margin: .5rem 1rem;
+    color: #ffffff;
 }
 
 fieldset {
@@ -242,13 +241,15 @@ fieldset span {
 
 fieldset legend {
     text-align: center;
+    color: #ffffff;
 }
 
 .num {
-    border: #ca92f0 solid 2px;
+    border: #ffffff solid 2px;
 }
 
 .num a {
+    color: #ffffff;
     font-family: 'Poiret One', cursive;
     font-weight: 900;
     font-size: 1.5rem;
@@ -305,11 +306,6 @@ button.pausa div {
     text-align: left;
     top: 13px;
     position: absolute;
-    content: var(--btn-texto-pausar);
-}
-
-.btn-musica.pausa:before {
-    content: var(--btn-texto-reproducir);
 }
 
 .btn-musica.hide {
