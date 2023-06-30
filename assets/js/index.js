@@ -28,14 +28,6 @@ var intervalo = setInterval(function () {
     }
 }, 1000);
 
-window.addEventListener('DOMContentLoaded', function () {
-    var audio = document.getElementById("myAudio");
-
-    audio.addEventListener('canplaythrough', function () {
-        audio.play();
-    });
-});
-
 function toggleMute() {
     var audio = document.getElementById("myAudio");
     if (audio.muted) {
