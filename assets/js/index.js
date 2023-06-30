@@ -28,11 +28,12 @@ var intervalo = setInterval(function () {
     }
 }, 1000);
 
-function toggleMute() {
-    var audio = document.getElementById("myAudio");
-    if (audio.muted) {
-        audio.muted = false;
+var audio = document.getElementById("myAudio");
+
+function togglePlay() {
+    if (audio.paused) {
+        audio.play();
     } else {
-        audio.muted = true;
+        audio.pause();
     }
 }
