@@ -169,10 +169,11 @@ span {
     border: #c45824 solid 2px;
 }
 
-legend {
+.contador legend {
     font-family: 'Parisienne', cursive;
     font-size: 3rem;
     padding: 0 1rem;
+    color: #c45824;
 }
 
 .contador h2 {
@@ -242,6 +243,8 @@ fieldset span {
 fieldset legend {
     text-align: center;
     color: #ffffff;
+    font-family: 'Parisienne', cursive;
+    font-size: 3rem;
 }
 
 .num {
