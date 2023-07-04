@@ -335,6 +335,11 @@ button.pausa div {
     cursor: pointer;
     z-index: 9999;
     animation: scrollAnimation 2s ease-in-out infinite;
+    transition: opacity 0.3s ease;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 #scrollButton i {

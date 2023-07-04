@@ -37,3 +37,16 @@ function togglePlay() {
         audio.pause();
     }
 }
+
+var scrollButton = document.getElementById("scrollButton");
+
+function hideButton() {
+    scrollButton.classList.add("hidden");
+}
+
+function showButton() {
+    scrollButton.classList.remove("hidden");
+}
+
+document.addEventListener("touchstart", showButton);
+document.addEventListener("touchend", hideButton);
