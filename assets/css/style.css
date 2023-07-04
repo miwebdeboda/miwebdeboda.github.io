@@ -238,6 +238,7 @@ fieldset {
 
 fieldset span {
     width: 12rem;
+    height: 5rem;
 }
 
 fieldset legend {
@@ -245,6 +246,7 @@ fieldset legend {
     color: #ffffff;
     font-family: 'Parisienne', cursive;
     font-size: 3rem;
+    padding: 0 1.5rem;
 }
 
 .num {
@@ -314,4 +316,42 @@ button.pausa div {
 .btn-musica.hide {
     width: 48px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, .12);
+}
+
+#scrollButton {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 2rem;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000 solid 1px;
+    outline: none;
+    cursor: pointer;
+    z-index: 9999;
+    animation: scrollAnimation 2s ease-in-out infinite;
+}
+
+#scrollButton i {
+    font-size: 1.5rem;
+    padding: 0 1rem 0 0;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
